@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 body{
-    margin-left: 24px;
     background-color: rgb(169, 152, 130);
     font-family: Arial, sans-serif;
 }
@@ -38,11 +37,18 @@ header{
 }
 main{
     background-color: red;
+    margin-left: 24px;
 }
 section{
     background-color: aquamarine;
-    margin: 0 12px;
+    margin: 24px 0;
+    padding: 4px 12px;
+    border-radius: 3px;
 }
 footer{
     background-color: greenyellow;
+    color: green;
+    font-size: smaller;
+    padding: 4px;
+    margin: 0;
 }
