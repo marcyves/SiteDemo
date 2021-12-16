@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 body{
-    background-color: rgb(169, 152, 130);
+    background-image: url('images/kiwihug-MS9Tnh3if1o-unsplash.jpeg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgb(170, 170, 170);
     font-family: Arial, sans-serif;
 }
 h1{
-    background-color: rgb(111, 67, 222);
+    background-color: rgba(111, 67, 222, 0.398);
     color: antiquewhite;
 
     margin: 0 12px 48px 12px;
     padding: 8px 24px 8px 24px;
-    border: 6px solid rgb(35, 37, 181);
+    border: 2px solid rgb(110, 35, 181);
     border-radius: 8px;
     
     text-align: center;
@@ -39,23 +42,35 @@ p{
     border-radius: 0 8px;
 }
 header{
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.405);
 }
 main{
     margin-left: 24px;
 }
 section{
-    background-color: rgb(194, 235, 222);
+    background-color: rgba(194, 211, 235, 0.563);
     margin: 24px 0;
     padding: 4px 12px;
     border-radius: 3px;
 }
 footer{
-    background-color: rgb(176, 193, 151);
-    color: rgb(41, 108, 41);
+    background-color: rgba(156, 127, 158, 0.645);
+    color: rgb(135, 107, 172);
     font-size: smaller;
     padding: 4px;
     margin: 0;
+}
+footer a{
+    color: rgb(113, 87, 147);
+    text-decoration: none;
+}
+.logo{
+    height:200px;
+    width:200px;
+    border-radius: 100px;
+}
+#logo{
+    text-align: center;
 }
 /* Le menu de navigation */
 nav a{
