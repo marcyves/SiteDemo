@@ -30,8 +30,14 @@ p{
     border-radius: 12px;
 }
 /* 
-    Partie HTML 5 
+    Troisème journée : Partie HTML 5
 */
+.mon_gras{
+    font-weight: bolder;
+    padding: 2px;
+    border: 1px solid darkblue;
+    border-radius: 0 8px;
+}
 header{
     background-color: grey;
 }
@@ -50,4 +56,16 @@ footer{
     font-size: smaller;
     padding: 4px;
     margin: 0;
+}
+/* Le menu de navigation */
+a{
+    text-decoration: none;
+}
+nav ul{
+    list-style-type:none;
+}
+nav li{
+    display: inline;
+    background-color: rgb(179, 217, 250);
+    padding: 8px;
 }
