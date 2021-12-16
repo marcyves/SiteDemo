@@ -36,18 +36,17 @@ header{
     background-color: grey;
 }
 main{
-    background-color: red;
     margin-left: 24px;
 }
 section{
-    background-color: aquamarine;
+    background-color: rgb(194, 235, 222);
     margin: 24px 0;
     padding: 4px 12px;
     border-radius: 3px;
 }
 footer{
-    background-color: greenyellow;
-    color: green;
+    background-color: rgb(176, 193, 151);
+    color: rgb(41, 108, 41);
     font-size: smaller;
     padding: 4px;
     margin: 0;
