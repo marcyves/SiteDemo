@@ -58,14 +58,26 @@ footer{
     margin: 0;
 }
 /* Le menu de navigation */
-a{
+nav a{
     text-decoration: none;
+    background-color: rgb(179, 217, 250);
+    color: rgb(53, 102, 145);
+    padding: 8px;
+}
+nav a:hover{
+    background-color: rgb(53, 102, 145);
+    color: rgb(179, 217, 250);
+    font-weight: bolder;
+    padding: 12px;
+    border-radius: 48px;
 }
 nav ul{
     list-style-type:none;
 }
 nav li{
     display: inline;
-    background-color: rgb(179, 217, 250);
-    padding: 8px;
+}
+.active{
+    background-color: rgb(40, 75, 106);
+    color: rgb(135, 163, 188);
 }
