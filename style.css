@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+body{
+    margin-left: 24px;
+    background-color: rgb(169, 152, 130);
+    font-family: Arial, sans-serif;
+}
+h1{
+    background-color: rgb(111, 67, 222);
+    color: antiquewhite;
+
+    margin: 0 12px 48px 12px;
+    padding: 8px 24px 8px 24px;
+    border: 6px solid rgb(35, 37, 181);
+    border-radius: 8px;
+    
+    text-align: center;
+
+    font-family: 'Permanent Marker', cursive;
+}
+h2{
+    margin: 0 5% 0 5%;
+}
+h3{
+    color:blue;
+    font-family: 'Cinzel', serif;
+}
+p{
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 12px;
+}
+/* 
+    Partie HTML 5 
+*/
+header{
+    background-color: grey;
+}
+main{
+    background-color: red;
+}
+section{
+    background-color: aquamarine;
+    margin: 0 12px;
+}
+footer{
+    background-color: greenyellow;
+}
