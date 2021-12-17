@@ -99,7 +99,6 @@ nav li{
 
 /* La colonne "extras" */
 aside{
-    background-color: rgba(174, 151, 121, 0.556);
+    background-color: rgba(174, 151, 121, 0.6);
     padding: 12px;
-    margin-left: 24px;
 }
