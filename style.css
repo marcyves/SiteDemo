@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/brands.min.css');
+
 body{
     background-image: url('images/kiwihug-MS9Tnh3if1o-unsplash.jpeg');
     background-repeat: repeat;
@@ -46,12 +48,11 @@ header{
 }
 main{
     margin-left: 24px;
-    background-color: rgba(255, 255, 0, 0.474);
 }
 section{
     background-color: rgba(194, 211, 235, 0.563);
-    margin: 24px 0;
-    padding: 4px 12px;
+    margin-bottom: 24px;
+    padding: 12px;
     border-radius: 3px;
 }
 footer{
@@ -100,7 +101,7 @@ nav li{
 
 /* La colonne "extras" */
 aside{
-    background-color: rgba(174, 151, 121, 0.6);
+    background-color: rgba(128, 128, 128, 0.405);
     padding: 12px;
 }
 /* Les paramètres pour que flex fonctionne */
@@ -112,10 +113,10 @@ aside{
     flex-wrap: wrap;
 }
 .colonne1{
-    flex:85%;
+    flex:70%;
 }
 .colonne2{
-    flex:15%;
+    flex:30%;
 }
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 @media(max-width: 800px) {
@@ -123,3 +124,14 @@ aside{
       flex: 100%;
     }
   }
+
+/* Menu réseau social */
+.my-social-logo{
+    width: 48px;
+}
+aside ul {
+    list-style-type: none;
+}
+aside li{
+    display: inline;
+}
